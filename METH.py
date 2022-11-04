@@ -1,3 +1,4 @@
+#version 2
 L=5
 
 if L <3: print("100%")
@@ -5,7 +6,6 @@ if L <3: print("100%")
 if L == 3: print("80%")
 
 if L > 3:
-
     N = (L+2)*((L+1)/2)
     A = 3
     B = 6
